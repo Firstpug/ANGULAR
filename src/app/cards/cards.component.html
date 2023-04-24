@@ -1,0 +1,16 @@
+<h2 class="text-center mt-0"><b>Recetas Más Buscadas</b></h2><br>
+<div class="container text-center mb-5 mt-3">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-6 mb-5" *ngFor="let card of cardData">
+        <div class="card">
+        <img [src]="card.imageUrl" class="card-img-top" alt="Card Image" style="opacity: .6;">
+        <div class="card-body">
+            <h5 class="card-title">{{card.title}}</h5>
+            <p class="card-text">{{card.description}}</p>
+            <button class="btn btn-outline-dark" type="submit">Ver Receta</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <button class="btn btn-outline-secondary" type="submit">Ver mas recetas</button>
+</div>

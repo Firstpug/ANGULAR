@@ -1,0 +1,13 @@
+
+.nav-custom{background-color: transparent;}
+
+@media (max-width: 767px) {
+    .nav-custom {
+      background-color: lightblue;
+      opacity: 1;
+    }
+    .navbar-toggler-icon {
+        background-image: url("https://cdn-icons-png.flaticon.com/512/56/56763.png");
+      }
+  }
+  

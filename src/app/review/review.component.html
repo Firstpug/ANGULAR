@@ -1,0 +1,21 @@
+<hr>
+<div class="container-fluid padding">
+<div class="row welcome text-center">   
+    <div class="col-12">
+        <h1 class="display-4" >Reviews y Comentarios</h1>    
+        <img src="https://t3.ftcdn.net/jpg/02/82/28/04/360_F_282280461_TGstFnrgEjDyiGfTxndBizvibaNrJrCd.jpg" width="550" height="175">
+        <div class="container">
+                      <div class="row ">
+                          <div class="col-md-6 mt-5 mb-3" *ngFor="let card of cardReview">
+                          <div class="card  " style="max-width:auto; border: solid rgb(233, 188, 130) 2px;">
+                              <div class="card-body text-dark">
+                                <h5 class="card-title"><b>{{card.title}}</b></h5>
+                                <p class="card-text">{{card.description}}</p>
+                              </div>
+                            </div>
+                          </div>                   
+                      </div>
+                  </div>           
+                </div>
+              </div>
+    </div>
